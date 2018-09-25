@@ -1,0 +1,81 @@
+.grid-outline{
+    box-sizing: border-box;
+    width:100%;
+    height:100%;
+    text-align:center;
+    padding-left:10%;
+    padding-right:10%;
+    
+
+}
+[class*='col-'] {
+    float: left;
+    min-height: 1px; 
+   
+    padding:10px;
+    
+}
+.col-1 {
+    width: 25%; 
+      
+}
+.col-2 {
+    width: 100%;
+    
+}
+.col-3 {
+    width: 50%;
+    
+}
+.col-4 {
+    width: 75%;
+    
+}
+
+ .row-1 {
+   height: 7.69%;
+   max-height: 7.69%;
+}
+.row-2 {
+   height: 15.38%;
+   max-height: 15.38%;
+}
+.row-3 {
+    height: 23.07%;
+   max-height: 23.07%;
+}
+.row-4 {
+    height: 30.76%;
+    max-height: 30.76%;
+} 
+#row-1 {
+text-align:left;
+}
+#row-1 p{
+    text-transform: uppercase;
+}
+#row-2 {
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#row-4 p{
+    text-align:justify;
+    text-indent: 5em;
+   padding:10px 10% 10px 10%;
+    }
+
+    #pizza {
+        width: 80%;
+    }
+
+#bg-image{
+    position:relative;
+    width:100%;
+}
+
+ul{
+   display:inline-block;
+   font-size: 1.3em;
+   color:rgb(148, 145, 145)
+}
