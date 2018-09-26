@@ -97,7 +97,9 @@ text-align:left;
     
 }
 
-
+.delicious {
+    font-family: cursive
+}
 
 #pizza {
     width: 80%;
@@ -145,3 +147,25 @@ ul{
     font-size: 0.8em;
     color:rgba(148, 145, 145, 0.5);
 }
+
+.line-through{
+    overflow:hidden;
+    text-align:center;
+}
+
+.line-through > span {
+    position: relative;
+    display:inline-block;
+    }
+    .line-through > span:before, .line-through > span:after{
+        content: '';
+        position: absolute;
+        top: 50%;
+        border-bottom: 1px solid rgba(148, 145, 145, 0.5);;
+        width: 420px; 
+        margin: 0 20px;
+    }
+    .line-through > span:before{
+        right: 100%;
+    }
+   
