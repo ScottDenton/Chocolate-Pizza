@@ -1,6 +1,13 @@
+body{
+   
+    width:960px;
+    height:100%;
+}
+
+
 .grid-outline{
     box-sizing: border-box;
-    width:100%;
+    width:960px;
     height:100%;
     text-align:center;
     padding-left:10%;
@@ -12,38 +19,37 @@
 [class*='col-'] {
     float: left;
     min-height: 1px; 
-   
     padding:10px;
     
 }
 .col-1 {
-    width: 25%; 
+    width: 240px; 
       
 }
 .col-2 {
-    width: 100%;
+    width: 960px;
     
 }
 .col-3 {
-    width: 50%;
+    width: 480px;
     
 }
 .col-4 {
-    width: 75%;
+    width: 720px;
     
 }
 
 .col-5 {
-    padding-left:80px;
+    padding-left:20px;
     padding-right:0px;
     padding-top:50px;
-    width:70%;
+    width:660px;
     
 }
 
 .col-6{
     
-    width:15%;
+    width:174px;
     
 }
 
@@ -86,13 +92,13 @@ text-align:left;
     background-position: center;
     background-repeat: no-repeat;
     height:280px;
-    width:100%;  
+    width:960px;  
     
 }    
-
 #row-6{
-    
-    width:80%;
+    color:rgb(148, 145, 145);
+    padding-top:5px;
+    display: inline;
     text-align:left;
     
 }
@@ -102,7 +108,7 @@ text-align:left;
 }
 
 #pizza {
-    width: 80%;
+    width: 768px;
     }
 
 ul{
@@ -112,12 +118,7 @@ ul{
     color:rgb(148, 145, 145)
 }
 
-#row-6{
-    color:rgb(148, 145, 145);
-    padding-top:5px;
-    display: inline;
-    
-}
+
 .author{
     float:left;
     padding-left:20px;
@@ -135,11 +136,10 @@ ul{
     background-color:rgb(185, 87, 7);
     color:white;
     text-transform: uppercase;
-    
     padding:10px;
     position:relative;
-    left:70%;
-    top:50px;
+    left: 720px;
+    bottom:80px;
     font-family: 'Times New Roman', Times, serif
 }
 
