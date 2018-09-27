@@ -6,7 +6,7 @@ body{
 
 
 .grid-outline{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     width:960px;
     height:100%;
     text-align:center;
@@ -22,10 +22,17 @@ body{
     padding:10px;
     
 }
+.col-0{
+    padding:40px 0px 20px 100px;
+    width:100px;
+}
+
 .col-1 {
     width: 240px; 
-      
-}
+   
+      }
+
+   
 .col-2 {
     width: 960px;
     
@@ -56,8 +63,10 @@ body{
  .row-1 {
    height: 7.69%;
    max-height: 7.69%;
+   
 }
 .row-2 {
+   
    height: 15.38%;
    max-height: 15.38%;
 }
@@ -69,22 +78,30 @@ body{
     height: 30.76%;
     max-height: 30.76%;
 } 
+
 #row-1 {
+   
 text-align:left;
 }
 #row-1 p{
     text-transform: uppercase;
     
+   
+    
 }
 #row-2 {
+    padding-left:40px;
     text-align: left;
     text-transform: uppercase;
+   
 }
 
 #row-4 p{
     text-align:justify;
-    text-indent: 5em;
-    padding:10px 10% 10px 10%;
+    color:rgb(116, 113, 113);
+    text-indent: 2.5em;
+    padding:10px 40px ;
+   
     }
 
 #row-5 {
@@ -103,12 +120,69 @@ text-align:left;
     
 }
 
+#top-logo{
+    padding-top:15px;
+   
+    
+    
+}
 .delicious {
-    font-family: cursive
+    font-family: cursive;
+    font-size:1.5em;
+    margin-bottom:0px;
+    
+    
 }
 
+.subheading {
+    font-size:0.6em;
+    color:grey;
+    
+}
+#social-links{
+float:right;
+margin-top:50px;
+margin-left:10px;
+   
+}
+
+.border-pic {
+    width:100%;
+}
+#border-pic{
+    width:900px;
+}
+
+#border-pic2 {
+    padding-top:20px;
+    margin-bottom:0px;
+    width:880px;
+}
+
+.heading-2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:1.2em;
+    font-weight: bold;
+}
+
+#print{
+    float:right;
+    padding-right:10px;
+    padding-bottom:20px;
+}
+
+#print-text{
+    float:right;
+    font-size:8px;
+    color:grey;
+    padding-right:100px;
+    
+}
+
+
 #pizza {
-    width: 768px;
+    width: 870px;
+    margin-top:0px;
     }
 
 ul{
@@ -125,22 +199,27 @@ ul{
     padding-right:10px;
 }
 .author-name{
-    color: rgb(56, 54, 54)
+    color: rgb(56, 54, 54);
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
 }
 
 .about{
     margin-left:100px;
-    
+    margin-bottom:0px;
+    margin-top:2px;
 }
 .recipe{
     background-color:rgb(185, 87, 7);
     color:white;
     text-transform: uppercase;
-    padding:10px;
-    position:relative;
-    left: 720px;
-    bottom:80px;
-    font-family: 'Times New Roman', Times, serif
+    padding:15px 20px;
+    margin-top:80px;
+    float:right;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: none;
+   
 }
 
 .copyright {
